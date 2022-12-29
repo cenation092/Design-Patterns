@@ -10,6 +10,7 @@ So that classes defining application data and presentations can be reused indepe
 
 When the user changes the information in the spreadsheet, the bar chart reflects the changes immediately, and vice versa.
 ![barchart](../images/barchart.png)
+
 This behavior implies that the spreadsheet and bar chart are dependent on the data object and therefore should be notified of any change in its state.
 
 The Observer pattern describes how to establish these relationships. The key objects in this pattern are **subject** and **observer**.
@@ -124,3 +125,8 @@ public class DisplayStudentMarksTest {
 
 ### Output
 ![img.png](../images/oout.png)
+
+### Real-World Analogy
+![image](https://user-images.githubusercontent.com/21224753/209972528-d3624b64-bdb4-4c8d-9de7-684a90be79cc.png)
+
+Magazine and newspaper subscriptions.
