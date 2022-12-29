@@ -14,7 +14,7 @@ One of the best example of this is `Collections.sort()` method that takes Compar
 - Then we will create the concrete implementation of our payment algorithms
 - Then we will implement the shopping cart and payment method that will require input as payment strategy.
 
-![ShopingCartClassDigram](../images/ShopingCartClassDigram.png?raw=true "ShopingCartClassDigram")
+![ShoppingCartClassDiagram](../images/ShoppingCartClassDigram.png?raw=true "ShoppingCartClassDiagram")
 
 ```java
 public interface PaymentStrategy {
@@ -155,6 +155,8 @@ public class ShoppingCardTest {
     }
 }
 ```
+### Output
+![img.png](../images/spout.png)
 
 ### Real-World Analogy
 
