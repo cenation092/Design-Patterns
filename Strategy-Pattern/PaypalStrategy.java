@@ -8,7 +8,6 @@ public class PaypalStrategy implements PaymentStrategy {
         this.password = password;
     }
 
-
     @Override
     public void pay(int amount) {
         System.out.println(amount + " paid using Paypal.");
