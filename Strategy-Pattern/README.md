@@ -155,3 +155,10 @@ public class ShoppingCardTest {
     }
 }
 ```
+
+### Real-World Analogy
+
+![image](https://user-images.githubusercontent.com/21224753/209949126-ec055cb2-8f4b-4de6-b80c-9a2a84a2b5b9.png)
+                     Various strategies for getting to the airport.
+
+
