@@ -16,15 +16,12 @@ One of the best example of this is `Collections.sort()` method that takes Compar
 
 ![ShopingCartClassDigram](../images/ShopingCartClassDigram.png?raw=true "ShopingCartClassDigram")
 
-<details>
-  <summary>PaymentStrategy</summary>
 ```java
 public interface PaymentStrategy {
 
     public void pay(int amount);
 }
 ```
-</details>
 
 ```java
 public class CreditCardStrategy implements PaymentStrategy {
@@ -162,6 +159,6 @@ public class ShoppingCardTest {
 ### Real-World Analogy
 
 ![image](https://user-images.githubusercontent.com/21224753/209949126-ec055cb2-8f4b-4de6-b80c-9a2a84a2b5b9.png)
-                     Various strategies for getting to the airport.
+Various strategies for getting to the airport.
 
 
