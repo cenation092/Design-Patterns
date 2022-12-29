@@ -16,12 +16,15 @@ One of the best example of this is `Collections.sort()` method that takes Compar
 
 ![ShopingCartClassDigram](../images/ShopingCartClassDigram.png?raw=true "ShopingCartClassDigram")
 
+<details>
+  <summary>PaymentStrategy</summary>
 ```java
 public interface PaymentStrategy {
 
     public void pay(int amount);
 }
 ```
+</details>
 
 ```java
 public class CreditCardStrategy implements PaymentStrategy {
