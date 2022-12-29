@@ -30,12 +30,14 @@ A subject may have any number of dependent observers. All observers are notified
 - Then we will create the interface for Observer
 - Then we will create the concrete implementations of our different observers.
 
+![img.png](../images/obd.png)
+
 ```java
 public interface Subject<T> {
 
-    public void addObserver(Observer<T> o);
-    public void removeObserver(Observer<T> o);
-    public void notifyObserver(T msg);
+    void addObserver(Observer<T> o);
+    void removeObserver(Observer<T> o);
+    void notifyObserver(T msg);
 }
 ```
 
@@ -98,6 +100,37 @@ public class SpreadSheet<T> implements Observer<T>{
     @Override
     public void update(T data) {
         System.out.println("Updated spreadsheet with new values" + data.toString());
+    }
+}
+```
+
+```java
+public class PCMMarks {
+
+    private int pMarks;
+    private int cMarks;
+    private int mMarks;
+
+    public PCMMarks(int pMarks, int cMarks, int mMarks) {
+        this.pMarks = pMarks;
+        this.cMarks = cMarks;
+        this.mMarks = mMarks;
+    }
+    public int getPMarks() {
+        return pMarks;
+    }
+
+    public int getCMarks() {
+        return cMarks;
+    }
+
+    public int getMMarks() {
+        return mMarks;
+    }
+
+    @Override
+    public String toString() {
+        return " " + getPMarks() + " " + getCMarks() + " " + getMMarks();
     }
 }
 ```

@@ -1,6 +1,6 @@
 public interface Subject<T> {
 
-    public void addObserver(Observer<T> o);
-    public void removeObserver(Observer<T> o);
-    public void notifyObserver(T msg);
+    void addObserver(Observer<T> o);
+    void removeObserver(Observer<T> o);
+    void notifyObserver(T msg);
 }

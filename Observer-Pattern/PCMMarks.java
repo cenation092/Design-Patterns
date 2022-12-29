@@ -13,25 +13,14 @@ public class PCMMarks {
         return pMarks;
     }
 
-    public void setPMarks(int pMarks) {
-        this.pMarks = pMarks;
-    }
-
     public int getCMarks() {
         return cMarks;
-    }
-
-    public void setCMarks(int cMarks) {
-        this.cMarks = cMarks;
     }
 
     public int getMMarks() {
         return mMarks;
     }
 
-    public void setMMarks(int mMarks) {
-        this.mMarks = mMarks;
-    }
     @Override
     public String toString() {
         return " " + getPMarks() + " " + getCMarks() + " " + getMMarks();
